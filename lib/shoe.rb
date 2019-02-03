@@ -11,7 +11,7 @@ class Shoe
   
   def brand=(brand) 
     @brand = brand
-    brand.pop
+   
   end 
 
 
@@ -19,4 +19,6 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  
+  BRANDS.pop
 end
