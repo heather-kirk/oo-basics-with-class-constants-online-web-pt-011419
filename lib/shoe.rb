@@ -20,5 +20,5 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  brand.pop
+  Shoe.pop
 end
