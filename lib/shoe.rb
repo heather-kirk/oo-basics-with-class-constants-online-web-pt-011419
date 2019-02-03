@@ -7,11 +7,11 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    brand.pop
   end
   
   def brand=(brand) 
     @brand = brand
+    brand.pop
   end 
 
 
